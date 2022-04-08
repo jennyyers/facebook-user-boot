@@ -745,16 +745,16 @@ class ChatBot(Client):
 
 
 cookies = {
-    "sb": "k8ZOYipRL8WZ-DAztCrrH4mt",
-    "fr": "0OF2UREqv0aEfgSse.AWWtSEhFxvk-80JokO6b0UGjZ6M.BiTsaT.y5.AAA.0.0.BiTsaW.AWUKIrNcC3o",
-    "c_user": "100080038780105",
-    "datr": "fcZOYpytyqwkRNJD6OeX2Lif",
-    "xs": "11%3AgpCmRMgXOQUDHQ%3A2%3A1649329811%3A-1%3A-1"
+    "sb": "",
+    "fr": "",
+    "c_user": "",
+    "datr": "",
+    "xs": ""
 }
 
 
-client = ChatBot("arielyap58@gmail.com",
-                 "jordiyap", session_cookies=cookies)
+client = ChatBot("",
+                 "", session_cookies=cookies)
 print(client.isLoggedIn())
 
 try:
